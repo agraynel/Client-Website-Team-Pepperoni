@@ -1,0 +1,510 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+	background-color: #EDFAFF;
+}
+div#header {
+	padding: 0%;
+	color:#F1DD06;
+
+}
+
+#login_topscreen {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:0;
+	background-color: rgba(158, 230, 255, 0);
+	display:inline-flex;
+
+	float:right;
+	height: 50px;
+
+}
+
+h3 {
+	text-align: center;
+}
+
+#logout_link{
+	size:100%;
+}
+
+/*\\\\\\\\\\\\\\ Hero Image /////////////*/
+
+.heros_img{
+	width:100%;
+	position: top;
+	margin:0;
+	border:0;
+	padding:0;
+
+}
+
+.footer{
+	padding: 2%;
+	background-color: rgba(158, 230, 255, 0.5);
+}
+
+div#bullet{
+	text-align: center;
+}
+
+h1, h2{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+/*\\\\\\\\\\\\\\ Navigation /////////////*/
+
+ul#nav{
+	list-style-type: none;
+	margin-right: 0;
+	padding: 0;
+	overflow: hidden;
+	display:inline-flex;
+
+	background-color: rgba(158, 230, 255, 0);
+
+	position: absolute;
+
+
+}
+
+li#nav1{
+	float: left;
+	display: block;
+	color: #0000e6;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+
+li#nav2{
+	float: left;
+	display: block;
+	color: #0000e6;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li#nav3 {
+	float: left;
+	display: inline-block;
+	color: #0000e6;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li#nav4{
+	float: left;
+	display: block;
+	color: #0000e6;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li#nav5{
+	float: right;
+	display: block;
+	color: #0000e6;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.all_navs:hover{
+
+	background-color: rgba(239, 249, 252, 0.5);
+}
+
+.nav_text{
+	font-size: 20px;
+	text-decoration:none;
+	color: white;
+
+}
+
+#logout_link {
+	font-size: 20px;
+	text-decoration:none;
+	color: white;
+}
+
+#logout_link:hover {
+	font-size: 20px;
+	text-decoration:none;
+	color: blue;
+}
+
+p{
+	text-align: center;
+}
+
+.login_topscreen{
+	padding:0;
+	border:0;
+	margin:0;
+}
+
+#login_p{
+
+	padding:0;
+	border:0;
+	margin:0;
+
+	text-decoration:none;
+	color: white;
+}
+
+
+
+.login_status_bar{
+
+	list-style-type: none;
+	margin-right: 0;
+	padding: 0;
+	overflow: hidden;
+	display:inline-flex;
+
+	float:right;
+
+}
+
+
+#divider1 {
+	background-color: #9AC0CD;
+	width: 100%;
+	height: 2px;
+	margin: 10px 1px 10px 1px;
+}
+
+/** Button looks like a link 
+http://stackoverflow.com/questions/1367409/how-to-make-button-look-like-a-link
+*/
+.link {
+	background:none;
+	border:none; 
+	padding:0;
+	color:#069;
+	text-decoration:underline;
+	cursor:pointer;
+
+	font-size: 100%;
+
+}
+
+/** Images*/
+
+.image_origin {
+	width: 85%;
+	height: auto;
+}
+
+/** thumbnails */
+.image_container {
+	width: 300px;
+	height: auto;
+	border-radius: 5px;
+	border: 2px #f0f0f0;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.image_container hover{
+	opacity: 1;
+}
+
+
+/** Contact */
+
+.contact_container {
+	float: left;
+	width: 30%;
+	min-width: 30%;
+	margin:1.66%;
+	background-color: #ffffff;
+}
+
+.contact_name {
+	display:block;
+}
+
+.contact_email {
+	display:block;
+	position: center;
+}
+
+.contact_title {
+	display:inline;
+}
+
+.contact_description {
+	display:inline;
+	padding: 5px;
+}
+/** Landing Page*/
+
+.landingBody, .landingHtml{
+
+	height:100%;
+	margin:0;
+	
+	background-color: #9ee6ff; Light blue
+
+}
+
+
+
+#sparkLogo {
+	margin-top: 40px;
+}
+
+#landSub {
+
+	font-size: 350%;
+	margin-bottom: 100px;
+	color: #1f2223;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.landingButton {
+
+	position: relative;
+
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+
+
+
+	width: 25%;
+	height: 100%;
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	position: relative;
+	vertical-align: center;
+
+
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: solid;
+    cursor:pointer;
+    overflow: hidden;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.landingButton:hover {
+
+	background-color: #e5f8ff; /*Lighter blue*/
+
+}
+
+.big {
+	background-image: url("assets/stuff.jpg");
+
+	height: 100%;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* The pop up modal */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popup_message_container h7{
+	margin: 0;
+	padding: 0 0;
+	font-size: 20px;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal_content {
+    background-color: #ffffff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.error_message {
+	margin: auto 0;
+	text-align: right;
+	font-size: 20px;
+	font-weight: normal;
+	max-height: 50px;
+	color: #AE0000;
+}
+
+/*\\\\\\\\\\\\\\ Events Page /////////////*/
+
+.contain_events {
+	padding-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.events_transbox{
+	
+	background-color: green;
+
+
+}
+
+.inner_events_transbox {
+
+	padding: 12px;
+	height: 60%;
+	width: 50%;
+	background: #9EE6FF;
+
+
+}
+
+.event_date {
+
+	text-align: left;
+	font-size: 150%;
+
+   
+  }
+
+ .event_desc{
+
+ 	text-align: left;
+ 	max-width: 90%;
+ 	font-size: 150%;
+
+
+ }
+
+.event_loc{
+
+	 	text-align: left;
+	 	font-size: 150%;
+
+
+}
+
+.event_title {
+
+	font-size: 250%;
+}
+/*\\\\\\\\\\\\\\ Projects Page /////////////*/
+
+.project_transbox {
+
+	float: left;
+    width: 30%;
+    min-width: 30%;
+    padding-bottom: 12%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color: #F1E36E;
+}
+
+.inner_project_transbox {
+
+
+	margin-left: 5%;
+	margin-right: 5%;
+/*	background-color: red;
+*/
+}
+
+.project_photo_display {
+	display: inline-block;
+	width: 80%;
+}
+
+.photo_display {
+	width: 90%;
+}
+
+.gallery_thumbnail {
+	margin: 8px;
+}
+
+.project_text {
+
+	font-size: 120%;
+	text-decoration: none;
+	color: #424549;
+
+
+}
+
+.project_text {
+
+	font-size: 120%;
+	text-decoration: none;
+	color: #424549;
+
+
+}
+
+.project_div_a {
+
+	display: block;
+}
+
+.project_div_a:hover {
+
+
+}
+
+.project_title {
+
+	font-size: 150%;
+	text-decoration: none;
+	color: #228aad;
+
+
+}
+
+.project_title:hover {
+
+	font-size: 150%;
+	text-decoration: none;
+	color: #9EE6FF;
+
+}
+
